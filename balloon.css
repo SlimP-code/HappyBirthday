@@ -1,0 +1,10 @@
+#img1{
+    position:absolute;
+    opacity: 0.6;
+    margin-top: 100%;
+    animation-name: GoUp;
+    animation-duration: 10s;
+}
+@keyframes GoUp {
+    to{transform: translateY(-2000px)}
+}
